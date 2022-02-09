@@ -12,11 +12,23 @@ public class Loops extends PApplet
 
 	public void setup() {
 		colorMode(HSB);
+	}
+	
+	public void draw1()
+	{	
 		
 	}
 
-	
-	public void draw()
+	public void draw2()
 	{	
+
+	}
+
+	public void loops()
+	{	
+		settings();
+		setup();
+		draw1();
+
 	}
 }
